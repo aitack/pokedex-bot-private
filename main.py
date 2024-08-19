@@ -8,7 +8,7 @@ from keep import keep_alive
 TOKEN = os.getenv("token")
 
 # Botが動作する特定のチャンネルID
-TARGET_CHANNEL_ID = 1274625700334141480
+TARGET_CHANNEL_ID = 1274647244577968160
 
 # Intentsの設定
 intents = discord.Intents.default()
@@ -19,9 +19,6 @@ client = discord.Client(intents=intents)
 
 en_jp_df = pd.read_csv("pokemon_en_jp_dict.csv", index_col=0)
 en_type_type_df = pd.read_csv("en_type.csv", index_col=0)
-
-print("Debug: en_type_type_df head:")
-print(en_type_type_df.head())  # CSVの最初の数行を表示
 
 
 @client.event
