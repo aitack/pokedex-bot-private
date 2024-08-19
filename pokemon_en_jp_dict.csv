@@ -716,7 +716,7 @@
 714,0715,オンバーン,noivern
 715,0716,ゼルネアス,xerneas
 716,0717,イベルタル,yveltal
-717,0718,ジガルデ,zygarde
+717,0718,ジガルデ,zygarde-50
 718,0719,ディアンシー,diancie
 719,0720,フーパ,hoopa
 720,0721,ボルケニオン,volcanion
@@ -770,7 +770,7 @@
 768,0769,スナバァ,sandygast
 769,0770,シロデスナ,palossand
 770,0771,ナマコブシ,pyukumuku
-771,0772,タイプ:ヌル,type: null
+771,0772,タイプ:ヌル,type-null
 772,0773,シルヴァディ,silvally
 773,0774,メテノ,minior
 774,0775,ネッコアラ,komala
@@ -783,10 +783,10 @@
 781,0782,ジャラコ,jangmo-o
 782,0783,ジャランゴ,hakamo-o
 783,0784,ジャラランガ,kommo-o
-784,0785,カプ・コケコ,tapu koko
-785,0786,カプ・テテフ,tapu lele
-786,0787,カプ・ブルル,tapu bulu
-787,0788,カプ・レヒレ,tapu fini
+784,0785,カプ・コケコ,tapu-koko
+785,0786,カプ・テテフ,tapu-lele
+786,0787,カプ・ブルル,tapu-bulu
+787,0788,カプ・レヒレ,tapu-fini
 788,0789,コスモッグ,cosmog
 789,0790,コスモウム,cosmoem
 790,0791,ソルガレオ,solgaleo
@@ -863,8 +863,8 @@
 861,0862,タチフサグマ,obstagoon
 862,0863,ニャイキング,perrserker
 863,0864,サニゴーン,cursola
-864,0865,ネギガナイト,sirfetch'd
-865,0866,バリコオル,mr. rime
+864,0865,ネギガナイト,sirfetchd
+865,0866,バリコオル,mr-rime
 866,0867,デスバーン,runerigus
 867,0868,マホミル,milcery
 868,0869,マホイップ,alcremie
@@ -982,18 +982,18 @@
 980,0981,リキキリン,farigiraf
 981,0982,ノココッチ,dudunsparce
 982,0983,ドドゲザン,kingambit
-983,0984,イダイナキバ,great tusk
-984,0985,サケブシッポ,scream tail
-985,0986,アラブルタケ,brute bonnet
-986,0987,ハバタクカミ,flutter mane
-987,0988,チヲハウハネ,slither wing
-988,0989,スナノケガワ,sandy shocks
-989,0990,テツノワダチ,iron treads
-990,0991,テツノツツミ,iron bundle
-991,0992,テツノカイナ,iron hands
-992,0993,テツノコウベ,iron jugulis
-993,0994,テツノドクガ,iron moth
-994,0995,テツノイバラ,iron thorns
+983,0984,イダイナキバ,great-tusk
+984,0985,サケブシッポ,scream-tail
+985,0986,アラブルタケ,brute-bonnet
+986,0987,ハバタクカミ,flutter-mane
+987,0988,チヲハウハネ,slither-wing
+988,0989,スナノケガワ,sandy-shocks
+989,0990,テツノワダチ,iron-treads
+990,0991,テツノツツミ,iron-bundle
+991,0992,テツノカイナ,iron-hands
+992,0993,テツノコウベ,iron-jugulis
+993,0994,テツノドクガ,iron-moth
+994,0995,テツノイバラ,iron-thorns
 995,0996,セビエ,frigibax
 996,0997,セゴール,arctibax
 997,0998,セグレイブ,baxcalibur
@@ -1003,12 +1003,12 @@
 1001,1002,パオジアン,chien-pao
 1002,1003,ディンルー,ting-lu
 1003,1004,イーユイ,chi-yu
-1004,1005,トドロクツキ,roaring moon
-1005,1006,テツノブジン,iron valiant
+1004,1005,トドロクツキ,roaring-moon
+1005,1006,テツノブジン,iron-valiant
 1006,1007,コライドン,koraidon
 1007,1008,ミライドン,miraidon
-1008,1009,ウネルミナモ,walking wake
-1009,1010,テツノイサハ,iron leaves
+1008,1009,ウネルミナモ,walking-wake
+1009,1010,テツノイサハ,iron-leaves
 1010,1011,カミッチュ,dipplin
 1011,1012,チャデス,poltchageist
 1012,1013,ヤバソチャ,sinistcha
@@ -1018,9 +1018,9 @@
 1016,1017,オーガポン,ogerpon
 1017,1018,ブリジュラス,archaludon
 1018,1019,カミツオロチ,hydrapple
-1019,1020,ウガツホムラ,gouging fire
-1020,1021,タケルライコ,raging bolt
-1021,1022,テツノイワオ,iron boulder
-1022,1023,テツノカシラ,iron crown
+1019,1020,ウガツホムラ,gouging-fire
+1020,1021,タケルライコ,raging-bolt
+1021,1022,テツノイワオ,iron-boulder
+1022,1023,テツノカシラ,iron-crown
 1023,1024,テラパゴス,terapagos
 1024,1025,モモワロウ,pecharunt
