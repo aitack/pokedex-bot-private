@@ -5,7 +5,7 @@ import re
 import pandas as pd
 from keep import keep_alive
 
-TOKEN = os.getenv["token"]
+TOKEN = os.getenv("token")
 
 # Botが動作する特定のチャンネルID
 TARGET_CHANNEL_ID = 1274625700334141480
