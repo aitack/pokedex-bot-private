@@ -35,7 +35,7 @@ async def on_message(message):
         return
 
     query = message.content.strip().lower()
-    if bool(re.fullmatch(r"^[a-zA-Z]+$", query)):
+    if bool(re.match(r"^[a-zA-Z'-]+$", query)):
         pokemon_en_name = query
     elif query.isdigit():
         pokemon_en_name = list(en_jp_df[en_jp_df["number"] == int(query)]["en_name"])[0]
