@@ -37,7 +37,7 @@ async def on_message(message):
     query = message.content.strip().lower()
     if query.isdigit():
         pokemon_en_name = list(en_jp_df[en_jp_df["number"] == int(query)]["en_name"])[0]
-    elif bool(re.match(r"^[a-zA-Z0-9\s'-]+$", query)):
+    elif bool(re.match(r"^[a-zA-Z0-9-]+$", query)):
         pokemon_en_name = query
     else:
         pokemon_en_name = list(en_jp_df[en_jp_df["jp_name"] == query]["en_name"])[0]
