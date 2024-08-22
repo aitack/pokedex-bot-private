@@ -39,7 +39,7 @@ async def on_message(message):
         pokemon_en_name = list(en_jp_df[en_jp_df["number"] == int(query)]["en_name"])[0]
     elif bool(re.match(r"^[a-zA-Z0-9-]+$", query)):
         pokemon_en_name = query
-    elif bool(re.match(r"^[^a-zA-Z]*[a-zA-Z][^a-zA-Z]*$", query)):
+    elif bool(re.match(r".*[XY]$", query)):
         pokemon_en_name = list(en_jp_df[en_jp_df["jp_name"] == query]["en_name"])[0]
     else:
         pokemon_en_name = list(en_jp_df[en_jp_df["jp_name"] == query]["en_name"])[0]
