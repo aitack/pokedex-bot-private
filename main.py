@@ -85,13 +85,13 @@ async def on_message(message):
                 f"**{name}**\n"
                 f"**タイプ1**: {type1}\n"
                 f"**タイプ2**: {type2}\n"
-                f"{'ＨＰ：':　<8} {stats['hp']: >3}\n"
-                f"{'こうげき：':　<8} {stats['attack']: >3}\n"
-                f"{'ぼうぎょ：':　<8} {stats['defense']: >3}\n"
-                f"{'とくこう：':　<8} {stats['special-attack']: >3}\n"
-                f"{'とくぼう：':　<8} {stats['special-defense']: >3}\n"
-                f"{'すばやさ：':　<8} {stats['speed']: >3}\n"
-                f"{'合計：':　<8} {total: >3}"
+                f"{'ＨＰ：':　<6} {stats['hp']: >3}\n"
+                f"{'こうげき：':　<6} {stats['attack']: >3}\n"
+                f"{'ぼうぎょ：':　<6} {stats['defense']: >3}\n"
+                f"{'とくこう：':　<6} {stats['special-attack']: >3}\n"
+                f"{'とくぼう：':　<6} {stats['special-defense']: >3}\n"
+                f"{'すばやさ：':　<6} {stats['speed']: >3}\n"
+                f"{'合計：':　<6} {total: >3}"
             )
 
             await message.channel.send(result)
