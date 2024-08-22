@@ -6,8 +6,8 @@
 4,4,ヒトカゲ,charmander
 5,5,リザード,charmeleon
 6,6,リザードン,charizard
-7,6-a,メガリザードンX,charizard-mega-x
-8,6-b,メガリザードンY,charizard-mega-y
+7,6-a,メガリザードンx,charizard-mega-x
+8,6-b,メガリザードンy,charizard-mega-y
 9,7,ゼニガメ,squirtle
 10,8,カメール,wartortle
 11,9,カメックス,blastoise
@@ -193,8 +193,8 @@
 191,148,ハクリュー,dragonair
 192,149,カイリュー,dragonite
 193,150,ミュウツー,mewtwo
-194,150-a,メガミュウツーX,mewtwo-mega-x
-195,150-b,メガミュウツーY,mewtwo-mega-y
+194,150-a,メガミュウツーx,mewtwo-mega-x
+195,150-b,メガミュウツーy,mewtwo-mega-y
 196,151,ミュウ,mew
 197,152,チコリータ,chikorita
 198,153,ベイリーフ,bayleef
