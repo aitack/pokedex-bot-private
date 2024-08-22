@@ -72,16 +72,26 @@ async def on_message(message):
 
             stats = {stat.stat.name: stat.base_stat for stat in pokemon.stats}
 
+            total = (
+                stats["hp"]
+                + stats["attack"]
+                + stats["defense"]
+                + stats["special-attack"]
+                + stats["special-defense"]
+                + stats["speed"]
+            )
+
             result = (
                 f"**{name}**\n"
                 f"**タイプ1**: {type1}\n"
                 f"**タイプ2**: {type2}\n"
-                f"HP: \t\t\t\t{stats['hp']}\n"
-                f"こうげき:\t {stats['attack']}\n"
-                f"ぼうぎょ:\t {stats['defense']}\n"
-                f"とくこう:\t {stats['special-attack']}\n"
-                f"とくぼう:\t {stats['special-defense']}\n"
-                f"すばやさ:\t {stats['speed']}"
+                f"{'ＨＰ：':　<8} {stats['hp']: >3}\n"
+                f"{'こうげき：':　<8} {stats['attack']: >3}\n"
+                f"{'ぼうぎょ：':　<8} {stats['defense']: >3}\n"
+                f"{'とくこう：':　<8} {stats['special-attack']: >3}\n"
+                f"{'とくぼう：':　<8} {stats['special-defense']: >3}\n"
+                f"{'すばやさ：':　<8} {stats['speed']: >3}\n"
+                f"{'合計：':　<8} {total: >3}"
             )
 
             await message.channel.send(result)
